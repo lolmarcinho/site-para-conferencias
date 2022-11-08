@@ -48,7 +48,7 @@ nav {
 .logo {
 
     color: white;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .logo span {
@@ -138,7 +138,7 @@ main {
 }
 
 .slider {
-    width: 80%;
+    width: 70%;
     height: 65%;
     overflow: hidden;
     position: absolute;
@@ -160,7 +160,7 @@ main {
 
 input {
 
-    display: block;
+    display: none;
 
 }
 
