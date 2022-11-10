@@ -1,104 +1,117 @@
 <!DOCTYPE html>
-        <html>
-            <header>
-                    <meta charset="utf-8">  <!--tipo de teclado-->
-                    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--visualização em varios dispositivos-->
-                    <title>Conference</title>    <!--Titulo-->
-                    <link rel="" href="">           <!--favicon-->
-                    <link rel="stylesheet" href="./css/style.css">  <!--linkando o arquivo style.css no html-->
-        
-            </header>
-        
-        
-            <body class="container">
-                        <header>
-                                <div class="header-background">
-                                        <nav>
-                                            <h2 class="logo"><a href="./index.html"><span>45º Conferência Anual de Vendas </span><br>1 de Dezembro</h2></a>
-                                            
-                                            <ul>
-                                                <li><a href="./index.html">Home</a></li>
-                                                <li><a href="./palestrantes.html">Palestrantes</a>
-                                                    <ul>
-                                                        <li><a href="palestrantes.html #palestrante1">Palestrantes1</a></li>
-                                                        <li><a href="palestrantes.html #palestrante2">Palestrantes2</a></li>
-                                                        <li><a href="palestrantes.html #palestrante3">Palestrantes3</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="./Cronograma.html">Cronograma</a></li>
-                                                <li><a href="./Local e inscricao.html">Local</a></li>
-                                                <button type="button"><a href="./Local e inscricao.html">Cadastro</a></button>
-                                            </ul>
-                                            
-                                        </nav>
-                                    
-                                </div>
-                        </header>
-        
-                        
-                        <main id="local-inscricao">
+<html>
+<header>
+    <meta charset="utf-8">
+    <!--tipo de teclado-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--visualização em varios dispositivos-->
+    <title>Conference</title>
+    <!--Titulo-->
+    <link rel="" href="">
+    <!--favicon-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--linkando o arquivo style.css no html-->
+
+</header>
+
+
+<body class="container">
+    <header>
+        <div class="header-background">
+            <nav>
+                <h2 class="logo"><a href="./index.html"><span>45º Conferência Anual de Vendas </span><br>1 de Dezembro
+                </h2></a>
+
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./palestrantes.html">Palestrantes</a>
+                        <ul>
+                            <li><a href="palestrantes.html #palestrante1">Palestrantes1</a></li>
+                            <li><a href="palestrantes.html #palestrante2">Palestrantes2</a></li>
+                            <li><a href="palestrantes.html #palestrante3">Palestrantes3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./Cronograma.html">Cronograma</a></li>
+                    <li><a href="./Local e inscricao.html">Local</a></li>
+                    <button type="button"><a href="./Local e inscricao.html">Cadastro</a></button>
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main id="local-inscricao">
+
+        <div class="mapa">
+            <h2>Local</h2>
+            <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.670100622475!2d-43.36798628597054!3d-22.999155684964954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda4b0f6140df%3A0xdd8393332dbb391a!2sCidade%20das%20Artes%20Bibi%20Ferreira!5e0!3m2!1spt-BR!2sbr!4v1666145630332!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h5>
+                <p>Av. das Américas, 5300 - Barra da Tijuca, Rio de Janeiro - RJ, 22793-080 </p>
+            </h5>
+        </div>
+
+        <div class="inscricao">
+            <table>
                 
-                                <div class="mapa">
-                                        <h2>Local</h2> 
-                                        <br>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.670100622475!2d-43.36798628597054!3d-22.999155684964954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda4b0f6140df%3A0xdd8393332dbb391a!2sCidade%20das%20Artes%20Bibi%20Ferreira!5e0!3m2!1spt-BR!2sbr!4v1666145630332!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        <h5><p>Av. das Américas, 5300 - Barra da Tijuca, Rio de Janeiro - RJ, 22793-080 </p></h5>
-                                </div>
-                    
-                                <div class="inscricao">
-                                    <table>
-                                        
-                                                <form>
-                                                            <!--Nome completo da pessoa -->
-                                                    <h2>Cadastro</h2>
-                                                    <br><br><br><br>
-                                                    <label for="nomeCompleto">Nome Completo: </label>
-                                                    <input id="nomeCompleto" type="text" name="nomeCompleto" placeholder="Insira seu nome..">
-                                                    <br><br>
-                                                        <!--inserir email na parte de contato-->
-                            
-                                                    <label for="email">E-mail: </label>
-                                                    <input id="email" type="email" name="email" placeholder="insira seu email..">
-                                                    <br><br>
-                            
-                                                    <label for="quantidade"> Quantos ingressos?</label>
-                                                    <input class='' id="quantidade" type="number" max="5" min="1">
-                                                    <br><br>
-                                                    
-                                                    <input type='checkbox' name="termos" request>
-                                                    <label for='termos'>Eu aceito os termos e condições</label>
-                            
-                                                    <br><br>
-                                                    <input class='submit' type="submit" value="Cadastrar">
-                                                    <input class='reset' type="submit" value="Apagar">
-                                                </form>
-                                            
-                                    </table>
-                                </div>
-                                          
-                                        
-                        </main>   
-        
-                        
-                        
-                        <footer>
-                                <div class="footer-background">
-                                    <nav class="footer-nav">
-                                        <ul>
-                                            <li><a href='./index.html'>Home</a></li>
-                                            <li><a href="./palestrantes.html">Palestrantes</a>
-                                            <li><a href="./Cronograma.html">Cronograma</a></li>    
-                                            <li><a href="./Local e inscricao.html">Local</a></li>
-                                            <li><a href="./Local e inscricao.html">Inscreva-se</a></li>
-                                        </ul>
-                                        <div class="footer-copyright">
-                                            <p>Conferencia Nacional © 2022  </p>
-                                        </div>
-                                    </nav>
-                                   
-                                </div>
-                            </footer>
-        
-        
-                </body>
-        </html>
+
+                    <form>
+                        <!--Nome completo da pessoa -->
+                        <h2>Cadastro</h2>
+                        <br><br><br><br>
+                        <label for="nomeCompleto">Nome Completo: </label>
+                        <input id="nomeCompleto" type="text" name="nomeCompleto" placeholder="Insira seu nome..">
+                        <br><br>
+                        <!--inserir email na parte de contato-->
+
+                        <label for="email">E-mail: </label>
+                        <input id="email" type="email" name="email" placeholder="insira seu email..">
+                        <br><br>
+
+                        <label for="quantidade"> Quantos ingressos?</label>
+                        <input class='' id="quantidade" type="number" max="5" min="1">
+                        <br><br>
+
+                        <input type='checkbox' name="termos" request>
+                        <label for='termos'>Eu aceito os termos e condições</label>
+
+                        <br><br>
+                        <input class='submit' type="submit" value="Cadastrar">
+                        <input class='reset' type="submit" value="Apagar">
+                    </form>
+                   
+            </table>
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+        <div class="footer-background">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href='./index.html'>Home</a></li>
+                    <li><a href="./palestrantes.html">Palestrantes</a>
+                    <li><a href="./Cronograma.html">Cronograma</a></li>
+                    <li><a href="./Local e inscricao.html">Local</a></li>
+                    <li><a href="./Local e inscricao.html">Inscreva-se</a></li>
+                </ul>
+                <div class="footer-copyright">
+                    <p>Conferencia Nacional © 2022 </p>
+                </div>
+            </nav>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -95,14 +95,13 @@ nav ul li:hover ul {
     display: block;
     background-color: #00b7bd;
     transition: .3s;
-    opacity: .9;
     border-radius: 7px;
 
 }
 
 nav ul li:hover ul a {
     display: block;
-
+    z-index: 1;
 
 }
 
@@ -138,7 +137,7 @@ main {
 }
 
 .slider {
-    width: 70%;
+    width: 50%;
     height: 65%;
     overflow: hidden;
     position: absolute;
@@ -158,7 +157,7 @@ main {
 
 }
 
-input {
+.slider  input {
 
     display: none;
 
@@ -262,13 +261,17 @@ footer{
 /*FIM DO FOOTER*/
 
 
+
 /*inscricao e local*/
 
 .inscricao input, label {
     border-radius: 50px;
     margin-top: 20px;
     justify-content: center;
-    opacity: .8;
+    align-items: center;
+    size: 20px;
+    
+
 }
 
 
@@ -290,3 +293,40 @@ footer{
 tr {
     border: 10px solid black;
 }
+
+/*cronograma*/
+
+main .cronograma-tabela {
+
+   text-align: center;
+   justify-content: space-between;
+   height: ;
+   
+}
+
+main .cronograma-tabela .table{
+
+    background: #F0FFFF;
+    text-align: center;
+    padding: 10%;
+    margin: 9%;
+    flex-wrap: nowrap;
+}
+
+/*palestrantes*/
+
+#palestrantes {
+    padding-left: 30px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+#palestrantes .sobrePalestrante h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
