@@ -101,8 +101,6 @@ nav ul li:hover ul {
 
 nav ul li:hover ul a {
     display: block;
-    z-index: 1;
-
 }
 
 button {
@@ -264,14 +262,14 @@ footer{
 
 /*inscricao e local*/
 
+
+
 .inscricao input, label {
     border-radius: 50px;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
     size: 20px;
-    
-
 }
 
 
